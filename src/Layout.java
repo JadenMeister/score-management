@@ -141,14 +141,14 @@ public class Layout extends JFrame implements ActionListener
     }
         public String getMajor(){return MajorT.getText();}
         public String getId() {return IdT.getText();}
-        public int getSub1() {return Integer.parseInt(sub1T.getText());}
-        public int getSub2() {return Integer.parseInt(sub2T.getText());}
-        public int getSub3() {return Integer.parseInt(sub3T.getText());}
-        public int getSub4() {return Integer.parseInt(sub4T.getText());}
-        public int getSub5() {return Integer.parseInt(sub5T.getText());}
-        public int getSub6() {return Integer.parseInt(sub6T.getText());}
-        public int getSub7() {return Integer.parseInt(sub7T.getText());}
-        public int getSub8() {return Integer.parseInt(sub8T.getText());}
+        public double getSub1() {return Double.parseDouble(sub1T.getText());}
+        public double getSub2() {return Double.parseDouble(sub2T.getText());}
+        public double getSub3() {return Double.parseDouble(sub3T.getText());}
+        public double getSub4() {return Double.parseDouble(sub4T.getText());}
+        public double getSub5() {return Double.parseDouble(sub5T.getText());}
+        public double getSub6() {return Double.parseDouble(sub6T.getText());}
+        public double getSub7() {return Double.parseDouble(sub7T.getText());}
+        public double getSub8() {return Double.parseDouble(sub8T.getText());}
 
 }
 

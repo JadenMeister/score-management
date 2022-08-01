@@ -15,8 +15,8 @@ public class SCP implements Serializable, Comparable <SCP> {
 
     private double avg;
 
-    public SCP(String Major, String Id, int sub1, int sub2, int sub3, int sub4,
-               int sub5, int sub6, int sub7, int sub8) {
+    public SCP(String Major, String Id, double sub1, double sub2, double sub3, double sub4,
+               double sub5, double sub6, double sub7, double sub8) {
         this.Major = Major;
         this.Id = Id;
         this.sub1 = sub1;

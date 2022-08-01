@@ -110,7 +110,7 @@ public class ScoreFunction implements Score {
         }
             while (model.getRowCount() != 0) {model.removeRow(0);}
             System.out.println(model.getRowCount());
-            System.out.println(String.format("%.2f",""));
+            System.out.println(String.format("%.2f", scp.getAvg()));
 
             for (SCP data : allList) {
                 Vector<Object> v = new Vector<Object>();
